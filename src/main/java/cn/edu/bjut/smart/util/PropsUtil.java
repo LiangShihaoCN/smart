@@ -69,7 +69,7 @@ public class PropsUtil {
 	 * @param defaultValue
 	 * @return
 	 */
-	private static String getString(Properties props, String key, String defaultValue) {
+	public static String getString(Properties props, String key, String defaultValue) {
 		String result = defaultValue;
 		if (props.contains(key)) {
 			defaultValue = props.getProperty(key);
