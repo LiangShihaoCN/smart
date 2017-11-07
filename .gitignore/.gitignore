@@ -1,1 +1,13 @@
-ss
+# Maven #
+target/
+
+# IDEA #
+.idea/
+*.iml
+
+# Eclipse #
+.settings/
+.metadata/
+.classpath
+.progect
+Servers/
