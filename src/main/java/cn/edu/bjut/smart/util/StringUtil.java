@@ -31,4 +31,15 @@ public class StringUtil {
 		return !isEmpty(str);
 	}
 
+	/**
+	 * 切分字符串
+	 * 
+	 * @param string
+	 * @param sp
+	 * @return
+	 */
+	public static String[] splitString(String string, String sp) {
+		return string.split(sp);
+	}
+
 }
