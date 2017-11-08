@@ -51,6 +51,16 @@ public final class ClassUtil {
 	}
 
 	/**
+	 * 加载类（不初始化）
+	 * 
+	 * @param className
+	 * @return
+	 */
+	public static Class<?> loadClass(String className) {
+		return loadClass(className, false);
+	}
+
+	/**
 	 * 获取指定包名下所有类
 	 * 
 	 * @param packageName
